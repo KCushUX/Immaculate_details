@@ -82,6 +82,43 @@ nav ul li a:hover{
     color: #00A0CB;
     transition: .4s;
 }
+
+
+.navtoggle li:not(:last-child) {
+    display: none;
+  }
+  
+  .navtoggle,
+  .navtoggle.responsive {
+    position: relative;
+  }
+  
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
+  
+  
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  
+  .navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #C7C7C7;
+  }
+  
+  .navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+  }
+
+
+
+
+
 .btn{
     background-color: #00A0CB;
     color: white;
@@ -504,6 +541,10 @@ footer p:nth-child(3){
   }
 
 
+ 
+
+
+
   /* //////// Media Queries /////// */
 
 /*clear page flow*/
@@ -522,7 +563,7 @@ footer p:nth-child(3){
   
   
   
-  /* ==============================
+    /* ==============================
   Medium devices (640px and larger)
   ================================= */
   @media only screen and (min-width: 640px) {
