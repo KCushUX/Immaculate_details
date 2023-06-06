@@ -766,8 +766,8 @@ Secondary Color (Blue): #00A0CB;
   
     .serv {
       width: 100%;
-      margin: auto;
-      display: block;
+      margin: 20px auto;
+      /*display: block;*/
     }
   
     .serv i {
@@ -902,7 +902,7 @@ Secondary Color (Blue): #00A0CB;
   
   
     #topBtn {
-      bottom: 80px;
+      bottom: 50px;
       /* Place the button at the bottom of the page */
       right: 50px;
       /* Place the button 20px from the right */
