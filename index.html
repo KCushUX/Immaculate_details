@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nate's Immaculate Detailz">
-    <meta name="description" content="This is the home page of my website">
+    <meta name="author" content="KCushUX">
+    <meta name="description" content="This is the home page of Immaculate Detailz">
     <title>Nate's Immaculate Detailz</title>
-    <link rel="icon" type="img/favicon" href="img/favicon.ico">
+    <link rel="icon" type="img/favicon" href="img/logo.png">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/d72eb3ec58.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!----navigation section start---->
-    <header id="header">
-        <div class="container">
+
+    <header>
+        <!-- for the header -->
+
+        <div class="container"><!-- for the navigation -->
             <div class="navtoggle" id="myNavtoggle">
                 <nav>
-                    <a href="index.html"><img src="img/logo.png" class="logo" alt="K. Cush"></a>
+                    <a href="index_ID.html"><img src="img/logo.png" class="logo" alt="Nate's ID"></a>
                     <ul id="navigation">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="index_ID.html">Home</a></li>
                         <li><a href="#service" onclick="menuToggle()">Services</a></li>
                         <li><a href="#about" onclick="menuToggle()">About</a></li>
                         <li><a href="#work" onclick="menuToggle()">My Work</a></li>
@@ -36,224 +38,243 @@
                         </li>
                     </ul>
                 </nav>
+                <div id="hero"><!-- for the hero section -->
+                    <h1>Nate's Immaculate Detailz</h1>
+                </div><!-- hero section end -->
             </div>
         </div>
     </header>
 
-    <div class="hero_container"><!-- For my hero section -->
+    <div class="hero_container"><!-- for my hero section -->
         <div class="hero">
             <video width="500" height="340" controls>
-                <source src="vid/promo_vid.mp4" type="video">
+                <source src="vid/promo_vid.mp4" type="video/mp4">
             </video>
             <div class="hero_container2">
                 <h1>The <span>best</span> service <br>for your car!</h1>
                 <h3>Get your car detailed by Nate.</h3>
             </div>
         </div>
-    </div><!-- Hero section end -->
+    </div><!-- hero section end -->
 
     <main>
-         
-        <!----Service section start---->
-    <div class="service" id="service">
-        <div class="title">
-            <h2>My Services</h2>
-        </div>
 
-        <div class="box">
-            <div class="serv">
-                <img src="img/engine_icon.png" alt="engine bay">
-                <h5>Engine Bay</h5>
-                <div class="pra">
-                    <p>The engine bay service is designed to thoroughly clean and dust the really grimy areas. 
-                        The engine is rinsed removing all dirt particles, then dried with microfiber towels and an air blower. 
-                        The engine is then coded a shinning wax to keep its lasting shine.
-                        Your engine deserves attention.</p>
-                </div>
+        <!-- service section start -->
+        <div class="service" id="service">
+            <div class="title">
+                <h2>My Services</h2>
             </div>
 
-            <div class="serv">
-                <img src="img/interior_icon.png" alt="interior">
-                <h5>Interior</h5>
-                <div class="pra">
-                    <p> Keep your car's interior clean with a professional wash. 
-                        Skilled technicians and advanced detailing options available. 
-                        Treat your car to a fresh and convenient clean today. 
-                        I clean the inside so you can sit pretty.</p>
+            <div class="box">
+                <div class="serv">
+                    <img src="img/engine_icon.png" alt="engine bay">
+                    <h5>Engine Bay</h5>
+                    <div class="pra">
+                        <p>The engine bay service is designed to thoroughly clean and dust the really grimy areas.
+                            The engine is rinsed removing all dirt particles, then dried with microfiber towels and an
+                            air blower.
+                            The engine is then coded a shinning wax to keep its lasting shine.
+                            Your engine deserves attention.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="serv">
-                <img src="img/exterior_icon.png" alt="exterior">
-                <h5>Exterior</h5>
-                <div class="pra">
-                    <p>Keep your car looking shiny and clean effortlessly with an exterior wash. 
-                        Choose from basic to advanced detailing options to suit your vehicle's needs. 
-                        I use professional-grade equipment to give your car the care it deserves. 
-                        Your car will look brand new.</p>
+                <div class="serv">
+                    <img src="img/interior_icon.png" alt="interior">
+                    <h5>Interior</h5>
+                    <div class="pra">
+                        <p> Keep your car's interior clean with a professional wash.
+                            Skilled technicians and advanced detailing options available.
+                            Treat your car to a fresh and convenient clean today.
+                            I clean the inside so you can sit pretty.</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        </div>
 
-
-<!----About section start---->
-<section class="about" id="about">
-    <div class="main">
-        <img src="img/business_card.JPEG" alt="about">
-        <div class="about-text">
-            <h5>About</h5>
-            <p>I spent over two years developing advanced detailing options and expertise. Treat your car to a fresh and convenient clean that will leave it looking and feeling like new. 
-                Don't settle for a lackluster wash and trust an expert to give your car the TLC it deserves. 
-                As a professional car wash enthusiast, I highly recommend investing in some thorough cleaning for your vehicle. </p>
-            <button type="button">Order Service</button>
-        </div>
-    </div>
-</section>
-
-<!----Gallery section start---->
-<section class="gallery" id="work">
-    <div class="title">
-        <h2>My Work</h2>
-    </div>
-    <div>
-        <p>Nate's Immaculate Detailz provides a customizable and great car cleaing service.</p>
-    </div>
-
-    <div class="grid-gallery">
-        <figure>
-            <img src="img/cars/0A401D94-C503-4322-9F49-9D440FE31483.JPG">
-        </figure>
-
-        <figure>
-            <img src="img/cars/252E17B8-0CA4-487F-B74F-7CD8D9D2C426.JPG">
-        </figure>
-
-        <figure>
-            <img src="img/cars/AF5161DE-730E-4828-A4FF-F60CB00C4DF7.JPG">
-        </figure>
-
-        <figure>
-            <img src="img/cars/B035211B-B666-4001-AD84-DE0988A0A5C5.JPG">
-        </figure>
-
-        <figure>
-            <img src="img/cars/B52D564B-578B-48D6-941B-5780EF6B5791.JPG">
-        </figure>
-
-        <figure>
-            <img src="img/cars/BC81AC89-93BB-42CF-AFD9-949359CAC45C.JPG">
-        </figure>
-    </div>
-    
-    <!-- Add more gallery items as needed -->
-    
-</section>
-
-<!----Testimonials section start---->
-<section class="testimonials" id="test">
-        <div class="title">
-            <h2>Testimonials</h2>
-        </div>
-
-        <div class="test-container">
-        
-            <div class="card">
-            <div class="test-content">
-                <div class="photo">
-                    <img src="img/avi_icon.png" alt="">
-                </div>
-                <div class="info">
-                    <div class="name">Xiomara</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <div class="serv">
+                    <img src="img/exterior_icon.png" alt="exterior">
+                    <h5>Exterior</h5>
+                    <div class="pra">
+                        <p>Keep your car looking shiny and clean effortlessly with an exterior wash.
+                            Choose from basic to advanced detailing options to suit your vehicle's needs.
+                            I use professional-grade equipment to give your car the care it deserves.
+                            Your car will look brand new.</p>
                     </div>
                 </div>
             </div>
-            <p class="description">Great service! Answered quickly. 
-                Very professional. We did interior and exterior detailing. 
-                The car looked brand new. My hubby loved his car. 
-                So glad we went with Nate!</p>
         </div>
 
-        <div class="card">
-            <div class="test-content">
-                <div class="photo">
-                    <img src="img/avi_icon.png" alt="">
-                </div>
-                <div class="info">
-                    <div class="name">Nohemi</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
+        <!-- about section start -->
+        <section class="about" id="about">
+            <div class="main">
+                <img src="img/nid_logo.jpg" alt="about">
+                <div class="about-text">
+                    <h5>About</h5>
+                    <p>I spent over two years developing advanced detailing options and expertise. Treat your car to a
+                        fresh and convenient clean that will leave it looking and feeling like new.
+                        Don't settle for a lackluster wash and trust an expert to give your car the TLC it deserves.
+                        As a professional car wash enthusiast, I highly recommend investing in some thorough cleaning
+                        for your vehicle. </p>
                 </div>
             </div>
-            <p class="description">I asked for a complete detail with a polish finish , I was skeptical at first because of the prices. 
-                But I agreed to the service and Nate did not disappoint! 
-                It's totally worth it and I will definitely continue to have him service my car !</p>
-        </div>
+        </section>
 
+        <div>
 
-        <div class="card">
-            <div class="test-content">
-                <div class="photo">
-                    <img src="img/avi_icon.png" alt="">
+            <!-- gallery section start -->
+            <section class="gallery" id="work">
+                <div class="title">
+                    <h2>My Work</h2>
                 </div>
-                <div class="info">
-                    <div class="name">Rodger</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <div>
+                    <p>Nate's Immaculate Detailz provides a customizable and great car cleaing service.</p>
+                </div>
+
+                <div class="grid-gallery">
+                    <figure>
+                        <img src="img/cars/0A401D94-C503-4322-9F49-9D440FE31483.JPG" alt="photo1">
+                    </figure>
+
+                    <figure>
+                        <img src="img/cars/252E17B8-0CA4-487F-B74F-7CD8D9D2C426.JPG" alt="photo2">
+                    </figure>
+
+                    <figure>
+                        <img src="img/cars/AF5161DE-730E-4828-A4FF-F60CB00C4DF7.JPG" alt="photo3">
+                    </figure>
+
+                    <figure>
+                        <img src="img/cars/B035211B-B666-4001-AD84-DE0988A0A5C5.JPG" alt="photo4">
+                    </figure>
+
+                    <figure>
+                        <img src="img/cars/B52D564B-578B-48D6-941B-5780EF6B5791.JPG" alt="photo5">
+                    </figure>
+
+                    <figure>
+                        <img src="img/cars/BC81AC89-93BB-42CF-AFD9-949359CAC45C.JPG" alt="photo6">
+                    </figure>
+                </div>
+
+                <!-- add more gallery items as needed -->
+
+            </section>
+
+            <!-- testimonials section start -->
+            <section class="testimonials" id="test">
+                <div class="title">
+                    <h2>Testimonials</h2>
+                </div>
+
+                <div class="test-container">
+
+                    <div class="card">
+                        <div class="test-content">
+                            <div class="photo">
+                                <img src="img/avi_icon.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Xiomara</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="description">Great service! Answered quickly.
+                            Very professional. We did interior and exterior detailing.
+                            The car looked brand new. My hubby loved his car.
+                            So glad we went with Nate!</p>
                     </div>
+
+                    <div class="card">
+                        <div class="test-content">
+                            <div class="photo">
+                                <img src="img/avi_icon.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Nohemi</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="description">I asked for a complete detail with a polish finish , I was skeptical at
+                            first because of the prices.
+                            But I agreed to the service and Nate did not disappoint!
+                            It's totally worth it and I will definitely continue to have him service my car !</p>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="test-content">
+                            <div class="photo">
+                                <img src="img/avi_icon.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Rodger</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="description">Had my car detailed by Nate and it looks brand new again!
+                            If you want someone who pays attention to detail and really cares about his work for a great
+                            price,
+                            you have come to the right place!
+                            Highly recommend</p>
+                    </div>
+
                 </div>
-            </div>
-            <p class="description">Had my car detailed by Nate and it looks brand new again! 
-                If you want someone who pays attention to detail and really cares about his work for a great price, 
-                you have come to the right place! 
-                Highly recommend</p>
+            </section>
+
         </div>
-
-    </div>
-</section>
-
-  <!----Contact Me ---->
-  <div class="contact-me">
-    <p>Let Talk Detailz!</p>
-    <a class="button-two" href="#"> Order Service</a>
-</div>
-
         <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
     </main>
 
+    <footer id="contact">
+        <!-- for the footer -->
+        <div class="container">
+            <h2>
+                Nate's Immaculate Detailz
+            </h2>
+            <p>
+                Get in touch!
+                <br>
+                For more details and examples of my work, please click on any of the links below to view my socials.
+            </p>
+        </div>
 
-    <!------footer start------>
-      <!------footer start------>
-      <footer>
-        <p>Nate's Immaculate Detailz</p>
-        <P>For more details and examples of my work, please click on any of the links below to view my socials.</P>
+        <div>
+            <!-- for contact links -->
+            <a href="mailto:nathan_granados@aol.com" class="button contact">Email me</a>
+        </div>
+
         <div class="social">
-            <a href="https://www.instagram.com/Letstalkdetailz/"><i class="fa-brands fa-instagram fa-lg"
+            <!-- social media layout and placeholders -->
+            <a href="https://www.instagram.com/Letstalkdetailz/" target="_blank"><i class="fa-brands fa-instagram fa-lg"
                     style="color: #ffffff;"></i></a>
-            <a href="https://www.yelp.com/biz/nates-immaculate-detailz-bay-shore"><i class="fa-brands fa-yelp"
+            <a href="https://www.yelp.com/biz/nates-immaculate-detailz-bay-shore" target="_blank"><i class="fa-brands fa-yelp"
                     style="color: #ffffff;"></i></a>
         </div>
-        <p class="end">Copyright K.Cush 2023 <i class="fa-solid fa-copyright"></i></p>
-    </footer>
+        <!-- social media layout and placeholders end -->
+
+        <p class="copyright">Website Design Copyright K. Cush 2023</p>
+    </footer> <!-- footer end -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-<script src="https://kit.fontawesome.com/d72eb3ec58.js" crossorigin="anonymous"></script>
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/d72eb3ec58.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
