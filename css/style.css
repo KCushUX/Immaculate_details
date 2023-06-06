@@ -141,7 +141,7 @@ Secondary Color (Blue): #00A0CB;
   
   .navtoggle li .icon {
     position: absolute;
-    right: 0;
+    right: 15px;
     top: 2px;
     font-size: 20px;
   }
@@ -572,7 +572,7 @@ Secondary Color (Blue): #00A0CB;
     /* Fixed/sticky position */
     bottom: 30px;
     /* Place the button at the bottom of the page */
-    right: 90px;
+    right: 50px;
     /* Place the button 90px from the right */
     z-index: 99;
     /* Make sure it does not overlap */
