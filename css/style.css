@@ -206,7 +206,8 @@ Secondary Color (Blue): #00A0CB;
     display: inline-block;
     width: 310px;
     padding: 20px 35px;
-    background: transparent;
+    background: black;
+    border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
@@ -244,9 +245,9 @@ Secondary Color (Blue): #00A0CB;
   
   
   .pra p {
-    text-align: justify;
+    text-align: center;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
     line-height: 1.6;
     padding-top: 15px;
@@ -503,6 +504,12 @@ Secondary Color (Blue): #00A0CB;
     color: #00A0CB;
     letter-spacing: 2px;
     font-size: 20px;
+  }
+
+  h5 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
   }
   
   span {
