@@ -155,6 +155,7 @@ Secondary Color (Blue): #00A0CB;
     display: block;
     padding: 10px 0;
     border-top: 1px solid white;
+    border: none;
   }
   
   .navtoggle.responsive li:last-child {
