@@ -464,17 +464,17 @@ Secondary Color (Blue): #00A0CB;
   }
   
   .about-text h5 {
-    text-align: left;
+    text-align: center;
     color: white;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 35px;
     text-transform: capitalize;
   }
   
   .about-text p {
     text-align: left;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     color: white;
     line-height: 1.6;
     padding-top: 20px;
